@@ -1,14 +1,12 @@
 {
   "name": "taskapi",
   "version": "1.0.0",
-  "description": "",
+  "description": "A robust, full-stack Task Management application built with *Node.js, **Express, **MVC Architecture, and an **Aiven Cloud MySQL Database*, complete with a responsive vanilla JavaScript frontend.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-  "start": "node server.js",
-  "dev": "npx nodemon server.js"
-
-  
+    "start": "node server.js",
+    "dev": "npx nodemon server.js"
   },
   "keywords": [],
   "author": "",
@@ -21,5 +19,13 @@
   },
   "devDependencies": {
     "nodemon": "^3.1.14"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khandurinchen17-cmd/Task-API.git"
+  },
+  "bugs": {
+    "url": "https://github.com/khandurinchen17-cmd/Task-API/issues"
+  },
+  "homepage": "https://github.com/khandurinchen17-cmd/Task-API#readme"
 }
